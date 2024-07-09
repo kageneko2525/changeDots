@@ -1,11 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Drawing;
 using System.Threading;
 using System.Collections;
-using System.Reflection;
-using static System.Net.Mime.MediaTypeNames;
+
 
 
 
@@ -22,8 +21,7 @@ namespace changeDots
         static void Main(string[] args)
         {
 
-            Console.SetBufferSize(240, 400);
-            Console.SetWindowSize(240, 400);
+
             ArrayList imagePaths = getImgPathList(folderPath);
 
 
